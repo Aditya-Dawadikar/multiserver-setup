@@ -26,7 +26,7 @@ app.get('/cross_site_request', (req, res) => {
 })
 
 //make a cross origin request to server_01
-axios.get('http://localhost:3000/cross_site_request')
+axios.get('http://localhost:4000/cross_site_request')
     .then(response => {
         console.log(response);
     })
